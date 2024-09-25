@@ -1,8 +1,16 @@
-body {background: #fff8dd;}
+body {background: #edf7fc;}
 
-h2 {
-    background: #bbffdd;
-    margin: 10pt;
-    padding: 10pt;
-    width:fit-content;
+#header {
+    background: #121212;
+    padding: 20pt;
+    margin-right: 0pt;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-bottom: 24px;
+    width: 100%;
+    color: #ffffff;
 }
+#header a {margin-left: 30pt}
+#header a:link { color: #1111ff }
+#header a:visited { color: #662bbe }
+#header a:active { color: #ff4040;}

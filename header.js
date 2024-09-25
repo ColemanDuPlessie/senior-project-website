@@ -1,0 +1,1 @@
+document.write(`<body><h1 id="header">Coleman DuPlessie's High School Senior Project <a href="./index.html">Home</a></h1></body>`);
