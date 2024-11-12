@@ -7,11 +7,16 @@
 
 li {margin: 0.5em 0;}
 
-.lithumb {
+.lithumb, .generic {
     width: 75%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.generic {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 #header {
