@@ -15,13 +15,6 @@ li {margin: 0.5em 0;}
 
 /* Images */
 
-.lithumb, .generic {
-    width: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .generic {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -32,6 +25,13 @@ li {margin: 0.5em 0;}
 
 .generic:hover {
     scale: 110%;
+}
+
+.lithumb, .generic {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Header */
