@@ -1,3 +1,9 @@
+/* General formatting */
+
+body {
+    font-size: 16px;
+}
+
 #content {
     width: 40em;
     line-height: 1.25em;
@@ -6,6 +12,8 @@
 }
 
 li {margin: 0.5em 0;}
+
+/* Images */
 
 .lithumb, .generic {
     width: 75%;
@@ -17,7 +25,16 @@ li {margin: 0.5em 0;}
 .generic {
     margin-top: 1em;
     margin-bottom: 1em;
+    position: relative;
+    transition: all 0.5s ease 0.1s;
+    margin: 5%;
 }
+
+.generic:hover {
+    scale: 110%;
+}
+
+/* Header */
 
 #header {
     background: #121212;
@@ -30,7 +47,34 @@ li {margin: 0.5em 0;}
     box-sizing: border-box;
     color: #ffffff;
 }
-#header a {margin-left: 30pt}
-#header a:link { color: #1111ff }
-#header a:visited { color: #662bbe }
+#header a {margin-left: 30pt;}
+#header a:link { color: #1111ff;}
+#header a:visited { color: #662bbe;}
 #header a:active { color: #ff4040;}
+
+/* Footnotes */
+
+#footnotes {
+    --scaling-factor: 0.8;
+    width: calc(40em/var(--scaling-factor));
+    line-height: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(100%*var(--scaling-factor));
+    color: #333333;
+}
+
+sup {
+    vertical-align: top;
+    position: relative;
+    margin-inline: 0.1em;
+    top: -0.25em;
+    font-size: 60%;
+}
+
+.footnotebacklink {
+    margin-left: 0.5em;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 150%;
+}
