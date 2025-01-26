@@ -1,1 +1,1 @@
-document.write(`<h1 id="header">Coleman DuPlessie's High School Senior Project <a href="./index.html">Home</a><a href="./jobyouwant.html">Style</a><a href="./timeline.html">Timeline</a></h1>`);
+document.write(`<h1 id="header">Coleman DuPlessie's High School Senior Project <a href="./index.html">Home</a><a href="./jobyouwant.html">Style</a><a href="./timeline.html">Timeline</a><a href="./strutplate.html">First Cuts</a></h1>`);
